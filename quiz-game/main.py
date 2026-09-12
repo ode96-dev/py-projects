@@ -31,6 +31,6 @@ for question, correct_answer in zip(questions, answers):
     else:
         print(f"Incorrect answer. Correct answer: {correct_answer}")
 
-print(f"Your final score is: {score}")
+print(f"Your final score is: {score} out of {len(answers)}")
 
 
